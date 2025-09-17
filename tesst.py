@@ -12,7 +12,7 @@ def say_hello(name: str = "dear") -> str:
         name (str): The name of the person to greet. Defaults to "dear".
 
     Returns:
-        str: A greeting message.
+        str: A greting message.
     """
     return f"Hello, {name}!"
 
