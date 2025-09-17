@@ -1,8 +1,16 @@
-def hello():
+def say_hello(name: str = "dear") -> str:
     """
-    this is demo    
+    Return a personalized greeting message.
+
+    Args:
+        name (str): The name of the person to greet. Defaults to "dear".
+
+    Returns:
+        str: A greeting message.
     """
-    return "helo dear"
+    return f"Hello, {name}!"
 
 
-hello()
+# Example usage
+print(say_hello())          # Hello, dear!
+print(say_hello("Sanskar")) # Hello, Sanskar!
