@@ -1,3 +1,9 @@
+"""
+tesst.py
+
+A simple demo module to show a greeting function.
+"""
+
 def say_hello(name: str = "dear") -> str:
     """
     Return a personalized greeting message.
@@ -11,6 +17,5 @@ def say_hello(name: str = "dear") -> str:
     return f"Hello, {name}!"
 
 
-# Example usage
-print(say_hello())          # Hello, dear!
-print(say_hello("Sanskar")) # Hello, Sanskar!
+if __name__ == "__main__":
+    print(say_hello())
